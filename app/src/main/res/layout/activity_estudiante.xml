@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".EstudianteAct">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nombre:" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Nombre"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/android"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/androidrb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CURSO DE ANDROID"  />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno de ANDROID" />
+    <Spinner
+        android:id="@+id/spinnerandroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <RadioGroup
+        android:id="@+id/php"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/phprb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURSO DE PHP"  />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno de PHP" />
+    <Spinner
+        android:id="@+id/spinnerphp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <RadioGroup
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/javarb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURSO DE JAVA"  />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno de JAVA" />
+    <Spinner
+        android:id="@+id/spinnerjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/buttoncalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TOTAL MATRICULA" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+</LinearLayout>

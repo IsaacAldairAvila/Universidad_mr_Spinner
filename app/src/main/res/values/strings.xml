@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">project</string>
+
+    <string-array name="turno">
+        <item>Mañana</item>
+        <item>Tarde</item>
+        <item>Noche</item>
+    </string-array>
+
+    <string-array name="estado">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Viudo</item>
+        <item>Divorciado</item>
+    </string-array>
+
+    <string-array name="estudio">
+        <item>Doctor</item>
+        <item>Magister</item>
+        <item>Licenciado</item>
+    </string-array>
+</resources>
